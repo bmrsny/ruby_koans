@@ -93,4 +93,7 @@ class AboutBlocks < Neo::Koan
     assert_equal __, method_with_explicit_block(&add_one)
   end
 
+  def test_github
+    skip
+  end
 end
