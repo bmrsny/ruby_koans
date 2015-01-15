@@ -60,4 +60,8 @@ class AboutDiceProject < Neo::Koan
     assert_equal 1, dice.values.size
   end
 
+  def test_for_github_success
+    skip
+  end
+
 end
